@@ -1,5 +1,6 @@
-# 🌸 Site portfolio
-Ce projet est un site portfolio retraçant mon parcours, mes compétences et les projets réalisés.
+# 🌸 tkimanh.github.io
+Ce projet est un site portfolio retraçant mon parcours, mes compétences et les projets réalisés.   
+Le site est disponible sur https://tkimanh.github.io/ .
 
 ## Sources
 - Ce site a été réalisé à partir du thème suivant : <a href="https://www.free-css.com/free-css-templates/page255/girly">lien</a>
