@@ -457,7 +457,7 @@ a {
 
 @media (max-width: 767px) {
   .contact-pop {
-    margin-top: -450px;
+    margin-top: -25rem;
   }
 
   .contact-pop .col-md-6 {
