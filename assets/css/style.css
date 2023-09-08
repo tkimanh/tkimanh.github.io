@@ -37,6 +37,8 @@
 }
 
 body {
+  width: 100%;
+  margin: 0;
   font-size: 16px;
   font-family: "PT-Sans-Regular";
 }
@@ -344,7 +346,7 @@ a {
   }
 
   .fh5co-home-banner .center-text {
-    top: 30%;
+    top: 10%;
   }
 }
 
@@ -357,14 +359,6 @@ a {
 
 .contact-pop {
   margin-top: -300px;
-}
-
-.contact-pop .card-img-overlay {
-  background: -webkit-linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.6));
-  background: -moz-linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.6));
-  background: -o-linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.6));
-  background: -linear-linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.6));
-  border-radius: 15px 0 0 15px;
 }
 
 .contact-pop .row {
@@ -381,6 +375,13 @@ a {
   height: 100%;
   background: var(--blanc);
   border-radius: 0 15px 15px 0;
+}
+
+.contact-pop .content-reverse {
+  padding: 40px 20px 20px 45px;
+  height: 100%;
+  background: var(--blanc);
+  border-radius: 15px 0 0 15px;
 }
 
 .contact-pop .content h3 {
@@ -422,6 +423,10 @@ a {
     padding: 20px 20px 20px 25px;
   }
 
+  .contact-pop .content-reverse {
+    padding: 20px 20px 20px 25px;
+  }
+
   .contact-pop .content h3 {
     font-size: 24px;
   }
@@ -452,7 +457,7 @@ a {
 
 @media (max-width: 767px) {
   .contact-pop {
-    margin-top: 0;
+    margin-top: -450px;
   }
 
   .contact-pop .col-md-6 {
@@ -463,12 +468,12 @@ a {
     border-radius: 15px 15px 0 0;
   }
 
-  .contact-pop .card-img-overlay {
-    border-radius: 15px 15px 0 0;
-  }
-
   .contact-pop .content {
     border-radius: 0 0 15px 15px;
+  }
+
+  .contact-pop .content-reverse {
+    border-radius: 15px 15px 0 0;
   }
 }
 
