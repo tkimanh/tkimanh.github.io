@@ -109,7 +109,7 @@ h2 {
   width: 80%;
 }
 
-.text-bloc > h5 {
+.text-bloc>h5 {
   text-align: center;
 }
 
@@ -234,6 +234,23 @@ a {
 .maine-menu .change .bar3 {
   -webkit-transform: rotate(46deg) translate(-4px, -8px);
   transform: rotate(46deg) translate(-4px, -8px);
+}
+
+@media (min-width:767px) and (max-width:991px) {
+  .navbar-nav {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}
+
+@media (min-width:991px) {
+  .navbar-nav {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background: rgba(0, 0, 0, 0.8);
+  }
 }
 
 @media (max-width: 991px) {
